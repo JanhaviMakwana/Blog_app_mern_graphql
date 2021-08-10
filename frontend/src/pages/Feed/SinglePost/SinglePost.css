@@ -1,0 +1,26 @@
+.single-post {
+    width: 40rem;
+    margin:auto;
+    text-align: center;
+    color: #3b0062;
+  }
+  
+  .single-post h2 {
+    font-size: 1rem;
+    color: #464646;
+    padding-bottom: 1rem;
+    border-bottom: 2px solid #464646;
+  }
+  
+  .single-post__image {
+    height: 20rem;
+    width: 20rem;
+    margin: 1rem auto;
+  }
+
+  .single-post__image > img{
+    width: 100%;
+    height: 100%;
+    background-repeat: no-repeat;
+    background-size: contain;
+  }

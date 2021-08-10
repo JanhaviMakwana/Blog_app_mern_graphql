@@ -1,0 +1,79 @@
+.App {
+  text-align: center;
+}
+
+.auth-form{
+  width: 40rem;
+  margin: auto;
+  padding: 2rem;
+  border: 1px solid #3b0062;
+  border-radius: 5px;
+  /* background-color: cadetblue; */
+}
+
+.auth_btn{
+  border:  1px solid #3b0062 !important;
+}
+
+.input{
+  margin: 1rem 0; 
+  width: 100%;
+}
+
+.input label {
+  display: block;
+  text-transform: uppercase;
+  margin-bottom: 0.25rem;
+}
+
+.input input,
+.input textarea{
+  display: block;
+  font: inherit;
+  padding: 0.25rem 0.01rem; 
+  width: 100%;
+  border-radius: 3px;
+  border: 1px solid #ccc;
+}
+
+.input input:focus,
+.input textarea:focus{
+  outline: none;
+  border-color: #3b0062;
+  color: #3b0062;
+}
+
+.button{
+  font: inherit;
+  border: none;
+ /*  border:  1px solid #3b0062; */
+  color: #3b0062;
+  background: none;
+  width: fit-content;
+  margin:auto;
+  padding: 0.5rem 1rem;
+  cursor: pointer;
+  text-transform: uppercase;
+  text-decoration: none;
+ 
+}
+
+.button:focus {
+  outline: none;
+}
+
+.button:hover,
+.button:active {
+  background: #3b0062;
+  color: white;
+}
+
+.new-post__preview-image {
+  width: 12rem;
+  height: 7rem;
+}
+
+.new-post__preview-image > img {
+  width: 100%;
+  height: 100%;
+}

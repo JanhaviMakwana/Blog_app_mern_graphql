@@ -1,0 +1,17 @@
+.loader {
+    display: inline-block;
+    position: relative;
+    width: 64px;
+    height: 64px;
+  }
+  .loader div {
+    box-sizing: border-box;
+    display: block;
+    position: absolute;
+    width: 51px;
+    height: 51px;
+    margin: 6px;
+    border: 6px solid #3b0062;
+    border-color: #3b0062 transparent transparent transparent;
+  }
+  

@@ -1,0 +1,31 @@
+
+.paginator__controls {
+    display: flex;
+    flex-direction: row;
+}
+.paginator__controls > button {
+    display: block;
+    margin: 0 auto;
+}
+
+.prev{
+    background: #00b359 !important;
+    color:white !important;
+    width: 100px !important;
+}
+.prev:hover {
+    border: 1px solid #00b359 !important;
+    background: white !important;
+    color: #00b359 !important;
+}
+
+.next{
+    background: #fab83f !important;
+    color: white !important;
+    width: 100px !important;
+}
+.next:hover{
+    border: 1px solid #fab83f !important;
+    background: white !important;
+    color: #fab83f !important;
+}

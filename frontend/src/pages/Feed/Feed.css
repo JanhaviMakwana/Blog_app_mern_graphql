@@ -1,0 +1,29 @@
+.new_post_btn{
+    border: 1px solid #fab83f !important;
+    color: #fab83f !important;
+    text-align: center;
+    display: block !important;
+}
+
+.new_post_btn:hover,
+.new_post_btn:active {
+  background: #fab83f !important;
+  color: #3b0062 !important;
+}
+
+.feed__control > .new_post_btn {
+   margin: 0 auto;
+}
+.feed_status {
+  display: block;
+  width: 50%;
+  margin: 0 auto;
+}
+
+.feed_status form {
+  display: flex;
+  flex-direction: row;
+}
+
+
+
